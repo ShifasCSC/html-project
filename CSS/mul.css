@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+div{
+    height: 200px;
+    width: 200px;
+}
+.div1{
+    position: absolute;
+    background-color: blue;
+    top:10% ;
+    left:10% ;
+    z-index:-0;
+    
+}
+.div2{
+position: absolute;
+background-color: yellow;
+top:15% ;
+    left:15% ;
+    z-index: -2;
+
+
+}
+.div3{
+    position: absolute;
+    background-color: green;
+    top:20% ;
+    left:20% ;
+    z-index: -1;
+
+    
+}
+.div4{
+    position: absolute;
+    background-color: brown;
+    top:25% ;
+    left:25%;
+    z-index: -3;
+}
+
