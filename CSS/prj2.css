@@ -15,11 +15,10 @@
 
 }
 .star{
-    object-fit: contain;
+    object-fit: cover;
     position: absolute;
-    
-    left: -4%;
-    bottom: -15%;
+    right:55%;
+    top:-35%;
     width: 50%;
 }
 .kid{
@@ -28,6 +27,9 @@
     top: 30%;
     left: 55%;
     color: rgb(237, 247, 130);
+    H1{
+        font-size: 50px;
+    }
     h4{
         display: inline;
         padding: 10px;
@@ -35,6 +37,7 @@
     p{
         width: 40%;
     }
+    
 }
 .destination{
     
