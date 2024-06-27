@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.image1{
+    position: relative;
+    object-fit: cover;
+
+}    
+.image1 h1{
+    top: 30%;
+    left: 38%;
+    position: absolute;
+    font-size: 99px;
+    color: rgb(250, 250, 250);
+    
+}
+
+.image1 h4{
+    top: 8%;
+    font-size: 4em;
+    color: white;
+    position:absolute;
+    left: 3%;
+
+}    
+.image1 ul{
+    top: 8%;
+    position: absolute;
+    color: white;
+    display: flex;
+    list-style: none;
+    left: 78%;
+
+}    
+li:hover{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    scale:1;
+    border-radius: 30px;
+    user-select: text;
+    transition:0.9s  ;
+     /* box-shadow: 13px 15px 71px -2px rgba(5,4,4,0.79); */
+    /* -webkit-box-shadow: 13px 15px 71px -2px rgba(5,4,4,0.79);  */
+    /* -moz-box-shadow: 13px 15px 71px -2px rgba(5,4,4,0.79); */
+    
+}    
+li{
+    font-size: 60px;
+    margin: 30px;
+}    
+
+/*  starting of grid */
+.parent{
+   display: grid;
+    background-color: rgb(249, 252, 249);
+     grid-template-columns: repeat(2,50%);
+     grid-template-rows: repeat(6,30%); 
+}
+.child1,.child3,.child5,.child6{
+    object-fit: cover;
+
+}
+
+.child2,.child4{
+text-align: center;
+padding:20% 10% ;
+width: 70%;
+font-size: 80px;
+    
+
+}
+.child2 p{
+    font-family: "Playwrite NO", cursive;
+}
+
+.child4 p{
+     font-family: "Playwrite NO", cursive;
+}
+
+
+.orange{
+    position: absolute;
+    width: 30%;
+    right: 9%;
+    top: 340%;
+    text-align: center;
+    font-size:60px ;
+}
+.cherry{
+    position: absolute;
+    width: 30%;
+    top: 340%;
+    left: 9%;
+    text-align: center;
+    font-size: 60px;
+}
+
+/* grid end */
+
+.profile{
+ display: flex;
+ 
+}
+.card{
+border: 1px solid black;
+height: 200px;
+width: 300px;
+margin: 60px;
+
+}
+.prof{
+
+}
